@@ -1,0 +1,164 @@
+body {
+    background-color: #00579e;
+}
+
+#flex {
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    padding: 15px;
+    max-width: 600px;
+    border: 3px solid black;
+    border-top: 0px;
+    background-color: rgb(197, 193, 133);
+}
+
+#gameplay {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#soldiers {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5px;
+    margin-left: 45px;
+    width: 300px;
+}
+
+#mute {
+    max-width: 25px;
+    align-self: flex-end;
+    background-image: url(/images/mute.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 25px;
+    width: 25px;
+    overflow-block:inherit;
+
+}
+
+#title {
+        margin: auto;
+        color: #000;
+        font-weight: bold;
+        animation: blinkingText 4s infinite;
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        padding-bottom: 0px;
+        max-width: 600px;
+        border: 3px solid black;
+        border-bottom: 0px;
+        background-color: rgb(197, 193, 133);
+        justify-content: center;
+        
+    }
+    @keyframes blinkingText{
+        0%		{ color: #ffffff;}
+        12%		{ color: #000000;}
+        25%		{ color: #ffffff;}
+        37%		{ color: #000000;}
+        50% 	{ color: #ffffff;}
+        63%		{ color: #000000;}
+        75%		{ color: #ffffff;}
+        87%		{ color: #000000;}
+        100%		{ color: #ffffff;}
+    
+    }
+
+#macount {
+    margin: auto;
+    margin-top: 15px;
+    color: red;
+    font-size: 20px;
+    
+}
+
+
+#hire-soldier-button {
+    margin: auto;
+    
+}
+
+#manifest-mako-button {
+    background-image: url(/images/mako.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 90px;
+    width: 90px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#manifest-materia-button {
+    background-image: url(/images/materia.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 42px;
+    width: 90px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#mako-counter {
+    margin: auto;
+    color: red;
+    margin: auto;
+    margin-top: 15px
+
+}
+
+#materia-counter-tainer{
+    color: red;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#manifest-harvester-button {
+    background-image: url(/images/harvester.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 88px;
+    width: 88px;
+    margin: auto;
+    margin-top: 15px;
+
+ 
+}
+
+#harvester-counter {
+    margin: auto;
+    margin-top: 15px;
+}
+
+#pp-counter {
+    margin: auto;
+    margin-top: 15px;
+}
+
+#pp-available {
+    margin: auto;
+    color: blueviolet;
+    font-size: 16px;
+}
+
+#harvester-available {
+    color: blueviolet;
+    font-size: 22px;
+    margin: auto;
+}
+
+#pp-button {
+    background-image: url(/images/plant.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 88px;
+    width: 88px;
+    margin: auto;
+    margin-top: 15px;
+
+}
