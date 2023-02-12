@@ -1,17 +1,10 @@
-# 🚀 Welcome to your new awesome project!
+BerNiki's witchhut
 
-This project has been created using **webpack-cli**, you can now run
+A few small projects I made. 
 
-```
-npm run build
-```
+Snake
+Shinra Clicker
+Asteroids clone
+Basic webapp for food delivery job
 
-or
-
-```
-yarn build
-```
-
-to bundle your application
-# clicker
-# clicker
+WIP
