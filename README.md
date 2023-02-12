@@ -1,10 +1,10 @@
 BerNiki's witchhut
 
-A few small projects I made. 
+A few small projects I made. <br>
 
-Snake
-Shinra Clicker
-Asteroids clone
+Snake <br>
+Shinra Clicker <br>
+Asteroids clone <br>
 Basic webapp for food delivery job
 
 WIP
